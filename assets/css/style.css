@@ -1,0 +1,14 @@
+
+body {
+  background: url(../photos/sun-pattern.png)
+}
+
+.contentBox {
+  max-width: 960px;
+  background: grey;
+}
+
+img {
+  max-height: 200px;
+  max-width: 220px;
+}
