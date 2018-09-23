@@ -1,14 +1,49 @@
 
 body {
-  background: url(../photos/sun-pattern.png)
+  background: url(../photos/sun-pattern.png);
+  /* padding-top: 60px; */
+}
+
+.header {
+  border-bottom: solid;
+  border-color: #cccccc;
+  max-height: 75px;
 }
 
 .contentBox {
   max-width: 960px;
-  background: grey;
+  /* background: grey; */
+  /* padding-top: 60px; */
+}
+
+.nameBox {
+  width: 275px;
+  height: 73px;
+  background-color: #4aaaa5;
+}
+
+h2 {
+  padding: 12px 0 0 12px;
+
+}
+
+.navBox {
+  float: right;
 }
 
 img {
   max-height: 200px;
   max-width: 220px;
+}
+
+.navbar {
+  height: 75px;
+}
+
+/* color of the footer and border below */
+.footCol {
+  background: #666666;
+  border-top: solid;
+  border-width: .5rem;
+  border-color: #4aaaa5;
 }
