@@ -7,7 +7,7 @@ body {
 .header {
   border-bottom: solid;
   border-color: #cccccc;
-  max-height: 75px;
+  /* max-height: 75px; */
 }
 
 .contentBox {
@@ -17,14 +17,18 @@ body {
 }
 
 .nameBox {
-  width: 275px;
-  height: 73px;
+  max-width: 285px;
+  height: 100%;
   background-color: #4aaaa5;
+  color: #FFFFFF;
 }
 
 h2 {
-  padding: 12px 0 0 12px;
+  /* padding: 12px 0 0 12px; */
+}
 
+h3 {
+  color: #4aaaa5;
 }
 
 .navBox {
