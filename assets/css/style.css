@@ -23,7 +23,7 @@ h3 {
   color: #4aaaa5;
 }
 
-img {
+a, img {
   max-height: 200px;
   max-width: 220px;
 }
