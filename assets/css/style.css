@@ -70,10 +70,11 @@ a, img {
 
 .nav-link {
   color: #FFFFFF;
+  text-shadow: .025rem .05rem #FFFFFF;
 }
 
 .btn {
-  background-color: #ffcc33; 
+  background-color: #ffcc33;
 }
 
 @media screen and (min-width: 1440px) {
