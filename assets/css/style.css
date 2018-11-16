@@ -54,7 +54,7 @@ a, img {
     top: 70%;
     left: 0;
     width: 100%;
-    background-color: #4aaaa5;
+    background-color: #ffcc33;
 }
 
 /* color of the footer and border below */
@@ -63,4 +63,14 @@ a, img {
   border-top: solid;
   border-width: .2rem;
   border-color: #ffcc33;
+}
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    margin-bottom: 5rem;
+  }
 }
