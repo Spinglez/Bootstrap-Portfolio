@@ -3,6 +3,7 @@ body {
   background: url(../photos/connectwork.png);
   /* Background pattern from Toptal Subtle Patterns */
   /* https://www.toptal.com/designers/subtlepatterns/ */
+  max-height: 100%
 }
 
 .header {
@@ -37,7 +38,7 @@ a, img {
 }
 
 .navbar {
-  height: 75px;
+  height: 5rem;
 }
 
 #content {
@@ -55,6 +56,8 @@ a, img {
     left: 0;
     width: 100%;
     background-color: #ffcc33;
+    color: #000000;
+    text-shadow: .025rem .05rem #FFFFFF;
 }
 
 /* color of the footer and border below */
@@ -69,8 +72,20 @@ a, img {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 425px) {
-  .navbar {
-    margin-bottom: 5rem;
+@media screen and (min-width: 1440px) {
+  .page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+  }  
+}
+
+@media screen and (min-width: 2560px) {
+  .page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
   }
 }
