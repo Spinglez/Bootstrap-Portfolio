@@ -72,13 +72,17 @@ a, img {
   color: #FFFFFF;
 }
 
+.btn {
+  background-color: #ffcc33; 
+}
+
 @media screen and (min-width: 1440px) {
   .page-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     display: block;
-  }  
+  }
 }
 
 @media screen and (min-width: 2560px) {
