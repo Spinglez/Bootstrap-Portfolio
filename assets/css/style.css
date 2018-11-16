@@ -1,11 +1,13 @@
 
 body {
-  background: url(../photos/sun-pattern.png);
+  background: url(../photos/connectwork.png);
+  /* Background pattern from Toptal Subtle Patterns */
+  /* https://www.toptal.com/designers/subtlepatterns/ */
 }
 
 .header {
   border-bottom: solid;
-  border-color: #cccccc;
+  border-color: #ffcc33;
 }
 
 .contentBox {
@@ -15,12 +17,18 @@ body {
 .nameBox {
   max-width: 285px;
   height: 100%;
-  background-color: #4aaaa5;
+  background-color: #ffcc33;
   color: #FFFFFF;
+  text-shadow: .5px .5px #000000;
+}
+
+#nav {
+  background-color: #666666;
 }
 
 h3 {
-  color: #4aaaa5;
+  color: #000000;
+  text-shadow: 1px 1px #FFFFFF;
 }
 
 a, img {
@@ -32,6 +40,10 @@ a, img {
   height: 75px;
 }
 
+#content {
+  background-color: #f2f2f2;
+  border-radius: .5rem;
+}
 
 .thumbnail {
     position: relative;
@@ -49,6 +61,6 @@ a, img {
 .footCol {
   background: #666666;
   border-top: solid;
-  border-width: .5rem;
-  border-color: #4aaaa5;
+  border-width: .2rem;
+  border-color: #ffcc33;
 }
