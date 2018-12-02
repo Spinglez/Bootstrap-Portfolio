@@ -83,12 +83,12 @@ a:hover {
   background-color: #ffcc33;
 }
 
-.page-footer {
+/* .page-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   display: block;
-}
+} */
 
 @media screen and (min-width: 1440px) {
   .page-footer {
