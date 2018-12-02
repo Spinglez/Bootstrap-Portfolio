@@ -4,7 +4,7 @@ body {
   /* Background pattern from Toptal Subtle Patterns */
   /* https://www.toptal.com/designers/subtlepatterns/ */
   max-height: 100%;
-  position: static;
+
 }
 
 .header {
@@ -81,6 +81,13 @@ a:hover {
 
 .btn {
   background-color: #ffcc33;
+}
+
+.page-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: block;
 }
 
 @media screen and (min-width: 1440px) {
