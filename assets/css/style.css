@@ -30,17 +30,19 @@ body {
 
 h3 {
   color: #000000;
-  text-shadow: 1px 1px #FFFFFF;
+  text-shadow: .75rem, .75rem, #FFFFFF;
 }
 
 a, img {
   max-height: 200px;
   max-width: 220px;
+  color: #ffcc33;
 }
 
 a:hover {
   color: #ffcc33;
   text-shadow: .5px .5px #000000;
+  color: #ffcc33;
 }
 
 .navbar {
